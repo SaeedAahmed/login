@@ -1,0 +1,95 @@
+:root {
+    --mainColor: #fff;
+  }
+  
+  body {
+    color: var(--mainColor);
+    font-family: 'Bungee', sans-serif;
+     font-weight:100;
+    font-size: 1rem !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--mainColor);
+    font-weight: 600;
+    letter-spacing: 0.9px;
+  }
+  
+  ::selection {
+    background-color: var(--mainColor);
+    color: #fff;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .mainColor {
+    color: var(--mainColor);
+  }
+  
+  .btn-main {
+    background-color: transparent !important;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor) !important;
+  }
+  .btn-main:hover{
+    background-color: #6a20be !important;
+  }
+  
+  main {
+   min-height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/download\ \(9\).jpeg);
+   background-position: center;
+   background-size: cover;
+  }
+  
+ 
+  
+  .navbar-toggler {
+    border: none;
+    color: var(--mainColor);
+    font-size: 1.375rem;
+  }
+  
+  main .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  main .form-control:focus {
+    border-color: #004da413;
+    box-shadow: 0 0 0 0.25rem rgba(61, 17, 165, 0.25);
+  }
+  
+  .boxContainer {
+    max-width: 500px;
+    margin: auto;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    border: var(--mainColor) 1px solid;
+  }
+  
+  .swal-button {
+    background-color: #6a20be;
+    border-color:#6a20be ;
+  }
+  
+  .swal-button:not([disabled]):hover {
+    background-color: #841ff7;
+    border-color:#841ff7;
+  }
+  .swal-text{
+    color: #000;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    :root {
+      font-size: 12px;
+    }
+  }
